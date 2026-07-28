@@ -1,14 +1,15 @@
 <script setup lang="ts">
-import { onMounted, ref } from 'vue'
-import DashboardTabulator from '../../components/DashboardTabulator.vue'
+import { onMounted, shallowRef, type Component } from 'vue'
 
-const ready = ref(false)
-onMounted(() => {
-  ready.value = true
+const table = shallowRef<Component | null>(null)
+
+onMounted(async () => {
+  // Dynamic import: survey-analytics / tabulator touch browser APIs at module load
+  table.value = (await import('../../components/DashboardTabulator.vue')).default
 })
 </script>
 
 <template>
-  <DashboardTabulator v-if="ready" />
+  <component :is="table" v-if="table" />
   <p v-else class="fallback">Loading…</p>
 </template>

@@ -9,6 +9,7 @@ onMounted(() => {
 </script>
 
 <template>
+  <!-- Creator touches navigator during SurveyCreatorModel construction -->
   <SurveyCreator v-if="ready" />
   <p v-else class="fallback">Loading…</p>
 </template>
