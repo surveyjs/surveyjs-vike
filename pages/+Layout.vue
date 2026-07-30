@@ -4,8 +4,10 @@ import '../assets/css/main.css'
 </script>
 
 <template>
-  <AppHeader />
-  <main>
-    <slot />
-  </main>
+  <div class="app">
+    <AppHeader />
+    <main>
+      <slot />
+    </main>
+  </div>
 </template>
