@@ -4,11 +4,9 @@ SurveyJS is a set of JavaScript components that allow you and your users to buil
 
 - [SurveyJS Form Library](https://surveyjs.io/form-library/documentation/overview)
 - [Survey Creator / Form Builder](https://surveyjs.io/survey-creator/documentation/overview)
-- [SurveyJS PDF Generator](https://surveyjs.io/pdf-generator/documentation/overview)
 - [SurveyJS Dashboard](https://surveyjs.io/dashboard/documentation/overview)
+- [SurveyJS PDF Generator](https://surveyjs.io/pdf-generator/documentation/overview)
 
-> This template uses SurveyJS **v3** (`3.0.0-beta.8`).
->
 > Form Library and PDF Generator are server-rendered. Survey Creator and Dashboard mount on the client (`onMounted`) because they access browser APIs (`navigator` / `document`) during setup.
 
 ## Run the application
