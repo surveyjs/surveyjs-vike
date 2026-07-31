@@ -9,7 +9,7 @@ SurveyJS is a set of JavaScript components that allow you and your users to buil
 
 > Form Library and PDF Generator are server-rendered. Survey Creator and Dashboard mount on the client (`onMounted`) because they access browser APIs (`navigator` / `document`) during setup.
 
-## Run the application
+## Run the Application
 
 ```bash
 git clone https://github.com/surveyjs/surveyjs-vike.git
@@ -20,7 +20,7 @@ npm run dev
 
 Open http://127.0.0.1:3000/ in your web browser.
 
-## Template structure
+## Template Structure
 
 This template covers most basic use cases. You can find code examples for them in the following files:
 
@@ -38,3 +38,9 @@ This template covers most basic use cases. You can find code examples for them i
   - As a table
     - [data/dashboard_data.js](data/dashboard_data.js)
     - [components/DashboardTabulator.vue](components/DashboardTabulator.vue)
+
+## Related Resources
+
+- [SurveyJS Website](https://surveyjs.io/)
+- [SurveyJS Documentation](https://surveyjs.io/documentation)
+- [What's New in SurveyJS](https://surveyjs.io/WhatsNew)
