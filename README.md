@@ -34,7 +34,7 @@ This template covers most basic use cases. You can find code examples for them i
 - Visualize survey results
   - As charts
     - [data/dashboard_data.js](data/dashboard_data.js)
-    - [components/DashboardPanel.vue](components/DashboardPanel.vue)
+    - [components/Dashboard.vue](components/Dashboard.vue)
   - As a table
     - [data/dashboard_data.js](data/dashboard_data.js)
     - [components/DashboardTabulator.vue](components/DashboardTabulator.vue)

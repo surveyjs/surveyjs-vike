@@ -5,7 +5,7 @@ const panel = shallowRef<Component | null>(null)
 
 onMounted(async () => {
   // Dynamic import: survey-analytics touches `document` at module load
-  panel.value = (await import('../../components/DashboardPanel.vue')).default
+  panel.value = (await import('../../components/Dashboard.vue')).default
 })
 </script>
 
